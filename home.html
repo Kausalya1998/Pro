@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height:1700px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.button {
+  background-color:rgb(255, 255, 255);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: 2px solid #555555;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+.button:hover{
+  background-color: rgb(103, 107, 110);
+}
+
+h2 {
+  font-family: Times New Roman, Merriweather, serif;
+  font-size: 46px;
+  color: #555555;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h2>Select Your Package</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <div class="centered">
+      <img src="2.jpg" alt="packages" style="width:100%;cursor:pointer" ><hr>
+      <img src="3.jpg" alt="packages" style="width:100%;cursor:pointer"><hr>
+      <img src="4.jpg" alt="packages" style="width:100%;cursor:pointer"><hr>
+      <img src="5.jpg" alt="packages" style="width:100%;cursor:pointer"><hr>
+      <img src="6.jpg" alt="packages" style="width:100%;cursor:pointer"><hr>
+     
+    </div>
+  
+  </div>
+
+ 
+  <div class="column" style="background-color:whitesmoke;">
+    <!--one-->
+    <div>
+      <br><br><label id="silver">price</label><br><br><br><br>
+    <br><br><label id="gold">Price</label><br><br><br><br>
+    <br><br><label id="platinum">Price</label><br><br><br>
+    </div>
+
+    <div>
+      <br><br><br><br><br><br><br><br><br><label id="gold2">Price</label><br><br><br><br><br><br>
+      <label id="platinum2">Price</label><br><br><br>
+      </div>
+
+      <div>
+        <br><br><br><br><br><br><br><br><br><label id="gold3">Price</label><br><br><br><br><br><br>
+        <label id="platinum3">Price</label><br><br><br>
+      </div>
+
+      <div>
+        <br><br><br><br><br><br><br><br><br><br><label id="gold4">Price</label><br><br><br><br>
+        <label id="platinum4">Price</label><br><br><br>
+      </div>
+
+      <div>
+        <br><br><br><br><br><br><br><br><label id="gold5">Price</label><br><br><br><br><br>
+        <label id="platinum5">Price</label><br><br><br>
+      </div>
+      
+  </div>
+
+
+  <div class="column" style="background-color:rgb(255, 255, 255);">
+    <div> 
+      <input type="button" class="button" value="Select G"><br>
+      <input type="button" class="button" value="Select S"><br>
+      <input type="button" class="button" value="Select P"><br><br>
+      <br>
+    </div>
+
+    <div> <br><br><br><br><br><br><br><br>
+      <input type="button" class="button" value="Select S"><br>
+      <input type="button" class="button" value="Select P"><br>
+      <br><br><br>
+    </div>
+
+    <div> <br><br><br><br><br><br><br><br><br><br>
+      <input type="button" class="button" value="Select S"><br>
+      <input type="button" class="button" value="Select P"><br>
+      <br><br><br>
+    </div>
+
+    <div> <br><br><br><br><br><br><br><br><br><br>
+      <input type="button" class="button" value="Select S"><br>
+      <input type="button" class="button" value="Select P"><br>
+      <br><br><br>
+    </div>
+
+    <div> <br><br><br><br><br><br><br><br><br><br><br>
+      <input type="button" class="button" value="Select S"><br>
+      <input type="button" class="button" value="Select P"><br>
+      <br><br><br>
+    </div>
+   
+  </div>
+</div>
+
+</body>
+</html>
+
